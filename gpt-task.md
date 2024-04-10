@@ -1,90 +1,85 @@
-# Galaxy Pets: Collect and Train Your Cosmic Companions
+# Hogwarts School of Witchcraft and Wizardry: The Magical Creatures Assignment
 
-For this programming assignment in Java, you are stepping into the shoes of a cosmic trainer, embarking on a journey through the universe to collect and train Galaxy Pets. These are mythical creatures with unique abilities and attributes that you'll be modeling in Java.
+Deadline: This work should be completed before the next exercise.
 
-## Deadline
-This assignment is due before the next scheduled class.
+Instructions: For instructions on how to do and submit the assignment, please see the assignments section of the course instructions.
 
-## Instructions
-For instructions on how to complete and submit this assignment, please refer to the assignments section of the course instructions reachable via [assignments section of our course webpage](https://assignments.example.com).
+Preparation:
+- Read and answer all questions in Module 2: Looking Inside Classes, available through the provided materials.
+- The provided reading materials and tasks are essential for completing this assignment effectively.
 
-## Preparation
+Learning Goals:
+- Designing Java classes
+- Adding instance fields
+- Adding a constructor method
+- Creating getters and setters
+- Using the dot operator
+- Printing to the terminal
+- Using the main method
+- Understanding scope and variable shadowing
 
-- Complete and understand all questions in Module 2: "Exploring Object-Oriented Programming".
-- Access the OLI material through Canvas or directly via [programming course materials](https://programmingmaterials.example.com).
+Troubleshooting Guide:
+1. Review this week's posted issues to see if other students have faced similar problems.
+2. If your query remains unanswered, create a New Issue with a descriptive title.
+3. For direct assistance, consult a TA during the weekly lab.
 
-Note: The OLI material and tasks this year may not perfectly align, so it's okay to read ahead if you did not find everything mentioned.
-
-## Learning Goals
-
-The goals for this week include understanding how to:
-- Design Java classes.
-- Implement fields and methods within a class.
-- Utilize the `main` method for testing.
-- Understand the concept of object encapsulation.
-- Manage object interaction within a Java application.
-
-## Troubleshooting Guide
-
-1. Browse the [posted questions](https://forum.example.com/issues) related to this week's assignment. Are others experiencing the same issue?
-2. If not, create a [New Question](https://forum.example.com/issues/new) with a descriptive title beginning with "Week *x*: *summary of problem*".
-3. Seek out further help at the [weekly help sessions](https://helpsessions.example.com) hosted by our team.
-
-Collaboration with peers is encouraged, but please avoid sharing exact solutions.
-
-## Assignment Details
-
-Your journey through the galactic frontier begins with the creation of unique Galaxy Pets crafted from the essence of cosmic phenomena. Dive into this universe by modeling these creatures in Java. Let your imagination run wild; perhaps a Starlion with the roar of a collapsing star, or a Nebulupi, a wolf made from the gas of a nebulous cloud.
-
-### Task 1: Class Creation
-
-Start by creating a file named `GalaxyPet.java` inside the `src` directory. Declare the GalaxyPet class within this file.
-
-### Task 2: Defining Properties
-
-Our Galaxy Pets need characteristics. Define the following fields within the GalaxyPet class, without assigning any initial values:
-
-- String name
-- int energyLevel
-- int cosmicPower
-- int speed
-- boolean asleep
-
-### Task 3: Spawning Galaxy Pets
-
-In the `main` method of your GalaxyPet class, create and instantiate a "Starlion" with initial values for its characteristics. Use the dot operator to set these attributes directly for now.
-
-### Task 4: Encapsulation with Getters and Setters
-
-To encapsulate the inner workings of our Galaxy Pets, change the access modifiers of your fields to `private`. Then, implement getters and setters for each property.
-
-### Task 5: Constructing with Constructors
-
-Implement a constructor for the GalaxyPet class that allows setting all characteristics upon instantiation. Create a second pet, "Nebulupi", using this constructor.
-
-### Task 6: Display Information
-
-Create a method named `displayInfo` within the GalaxyPet class that prints out all information about the pet to the console.
-
-### Task 7: The Cosmic Challenge
-
-Galaxy Pets can challenge each other to cosmic duels. Implement a method named `challenge` where one pet can challenge another. The outcome will determine which pet gains cosmic power. Incorporate simple logic based on your chosen attributes.
-
-### Task 8: Understanding Scope and Shadowing
-
-Review examples of scope and variable shadowing provided in the reading materials. Be prepared to adjust your implementation if necessary, focusing on proper usage of the `this` keyword.
-
-## Final Checklist
-
-- [ ] Created and developed the GalaxyPet class with fields and methods.
-- [ ] Utilized getters and setters for encapsulation.
-- [ ] Implemented constructors for easy object instantiation.
-- [ ] Developed a method displaying a pet's info.
-- [ ] Enabled Galaxy Pets to challenge each other.
-
-## Bugs and Errors?
-
-If you encounter any inconsistencies or errors with this assignment, please report them by creating a [New Issue](https://forum.example.com/issues/new) with the title "Week *x* Error: *summary of error here*". Contributors identifying bugs will be acknowledged.
+Assignment: 
 
 
-This personalized task should help the student understand the same core programming concepts as the model task, framed around an engaging theme of collecting and training cosmic creatures.
+Hogwarts School of Witchcraft and Wizardry is known not only for its exceptional academic curriculum but also for its diverse range of magical creatures. Your assignment is to model these magical creatures in Java. Imagine creatures like Hippogriffs, Thestrals, and Nifflers roaming the grounds of Hogwarts.
+
+### Exercise 1: Begin Your Magical Journey
+
+Your adventure starts by creating a `MagicalCreature.java` file in the `src` folder. Define a class `MagicalCreature` within it.
+
+Now, let's create our very first magical creature. Add the main method provided in Example 1 to your `MagicalCreature` class. Then create the variables listed below in the main method and assign the corresponding values:  
+
+- String name: Buckbeak
+- int magicPower: 8
+- int agility: 7
+- boolean isFriendly: true
+
+### Exercise 2: Enchanting More Creatures
+
+After creating your first creature, it's time to introduce more magical creatures to Hogwarts, increasing our total to three. Print the information for all three magical creatures.
+
+
+### Exercise 3: Magical Fields
+
+Instead of creating variables for each creature, use fields to define their properties. Afterward, create a new magical creature object in the main method to model this.
+
+### Exercise 4: Spellbinding Getters and Setters
+
+Implement encapsulation by adding accessors and mutators for each field. These methods will help manage the creature's state effectively.
+
+### Exercise 5: The Summoning Constructor
+
+Introduce a constructor for your `MagicalCreature` class, allowing you to set all attributes at once. This will streamline the process of creating new magical creatures.
+
+### Exercise 6: A Gathering of Creatures
+
+Utilize the constructor to add two additional magical creatures. Appreciate the efficiency of using a class to encapsulate creature attributes and behaviors.
+
+### Exercise 7: Casted Information
+
+Create a `printInfo()` method to neatly display all information about a magical creature. Invoke this method to ensure all is working as expected.
+
+### Exercise 8: Duel of the Creatures
+
+Now, for a bit of fun, let's have the creatures challenge each other! Implement an `engage` method where creatures can have a friendly duel, based on their magicPower and agility.
+
+### Exercise 9: Mysteries of Variable Shadowing
+
+Explore variable shadowing through examples. Understand the importance of the `this` keyword in avoiding common pitfalls associated with shadowing.
+
+Checklist:
+- At least three magical creatures created and correctly documented.
+- Fields, getters/setters, and a constructor implemented for the `MagicalCreature` class.
+- Demonstration of the use of classes, objects, and methods to manage creature information and interactions.
+- An understanding of the concept of variable shadowing and its implications in Java programming.
+
+Bugs and errors: If you encounter any discrepancies or errors, please open a New Issue with a detailed description of the problem.
+
+---
+
+This assignment aims to blend the enchanting world of Harry Potter with the principles of object-oriented programming in Java. By the end of this task, you will have created a magical menagerie of creatures, each with its unique attributes and behaviors, while also mastering key programming concepts.
